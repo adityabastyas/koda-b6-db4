@@ -15,7 +15,7 @@ erDiagram
     SESSIONS {
         int id PK
         int user_id FK
-        text token UNIQUE
+        text token 
         timestamp created_at
     }
 
